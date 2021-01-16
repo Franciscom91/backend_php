@@ -20,6 +20,9 @@
 
 $verdadero = true;
 
+// variable condicional
+$var_condicion = ($verdadero == true) ? "se cumple esto" : "si no se cumple esto";
+
 // La siguiente sentencia se ejecutará siempre
 //if($verdadero) echo 'verdadero';
 
@@ -37,7 +40,6 @@ if($verdadero === false) {
 }
 
 // A continuación se evalúan ambas expresiones,
-// pero no entra en ninguna.
 if($verdadero) {
   // nunca entra aquí
 }
